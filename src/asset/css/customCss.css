@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+:root {
+    --theme-color: rgb(10, 25, 47);
+    --theme-off-color: rgb(136, 146, 176);
+    --fnt-hero-title: 75px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    overflow: hidden;
+}
+
+.navbar-toggler:focus {
+    outline: 0 !important;
+    box-shadow: none;
+}
+
+.sectionHeaderTitle {
+    position: relative;
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: var(--theme-off-color);
+    /* color: rgb(14, 102, 150); */
+    margin-bottom: 40px;
+}
+
+.sectionDefaultMargin {
+    margin-bottom: 80px;
+}
+
+@media (max-width: 576px) {
+    .sectionHeaderTitle {
+        font-size: 29px;
+    }
+}

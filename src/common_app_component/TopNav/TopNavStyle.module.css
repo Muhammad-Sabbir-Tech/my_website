@@ -1,0 +1,4 @@
+.topNavContainer {
+    background-color: var(--theme-color) !important;
+    /* background: linear-gradient(180deg, #000000 0%, #1fc8db 1%, #2cb5e8 75%); */
+}

@@ -1,0 +1,78 @@
+.homeBannerContainer {
+    box-sizing: border-box;
+    background-color: var(--theme-color) !important;
+    width: 100vw;
+    background-image: radial-gradient(ellipse at 5% 100%, rgb(14, 102, 150) 0%, transparent 50%);
+}
+
+.heroTitleTop {
+    color: rgb(30, 234, 166);
+    font-size: 18px;
+}
+
+.heroTitle {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    /* line-height: 70px; */
+}
+
+.heroSecondTitle {
+    font-size: var(--fnt-hero-title);
+    color: var(--theme-off-color);
+    font-weight: 700;
+    line-height: 90px;
+    /* word-spacing: 10px; */
+}
+
+.heroDescription {
+    color: var(--theme-off-color);
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.bannerContentWrapper {
+    padding: 200px 0;
+}
+
+.headerSocialWrapper {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.headerSocialLink {
+    color: var(--theme-off-color);
+    font-size: 20px;
+    border: 2px solid var(--theme-off-color);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .homeBannerContainer {
+        background-image: radial-gradient(ellipse at -5% 100%, rgb(14, 102, 150) 0%, transparent 50%);
+        /* height: 100vh; */
+    }
+
+    .bannerContentWrapper {
+        padding: 150px 0;
+    }
+
+    .heroTitle {
+        font-size: 40px;
+    }
+
+    .heroSecondTitle {
+        font-size: 50px !important;
+        line-height: 60px;
+    }
+}

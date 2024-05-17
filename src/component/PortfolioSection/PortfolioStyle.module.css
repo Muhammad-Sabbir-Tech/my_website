@@ -1,0 +1,9 @@
+.portfolioImageContainer {
+    padding: 20px 0;
+    height: 180px;
+    overflow: hidden;
+}
+
+.portfolioDescription{
+    text-align: justify;
+}

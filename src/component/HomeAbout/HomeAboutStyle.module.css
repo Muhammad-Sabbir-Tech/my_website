@@ -1,0 +1,10 @@
+.homeAboutWrapper{
+    /* margin-bottom: 40px; */
+}
+.aboutList{
+    padding-left: 0px;
+    line-height: 35px;
+}
+.aboutDescription{
+    text-align: justify;
+}
