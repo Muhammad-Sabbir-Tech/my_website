@@ -17,10 +17,9 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p,
-span {
+h6 {
     overflow: hidden;
+    font-family: Outfit,sans-serif;
 }
 
 .navbar-toggler:focus {
@@ -40,6 +39,17 @@ span {
 
 .sectionDefaultMargin {
     margin-bottom: 80px;
+}
+.HomeBanner_heroTitle__0G7bl {
+    font-size: 50px;
+    color: white;
+    font-weight: 600 !important;
+    line-height: 70px;
+}
+.HomeBanner_heroSecondTitle__plpGF {
+    font-weight: 600!important;
+    line-height: 90px;
+    word-spacing: 10px;
 }
 
 @media (max-width: 576px) {
