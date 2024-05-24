@@ -40,6 +40,44 @@ h6 {
 .sectionDefaultMargin {
     margin-bottom: 80px;
 }
+.TopNavStyle_topNavContainer__MRqSu {
+    background: rgba(10, 25, 47, .5) !important  ;
+}
+.HomeBanner_homeBannerContainer__38QRE {
+    box-sizing: border-box;
+    width: 100vw;
+    background:url(../../../public/images/homapageBanner-1-min.webp) no-repeat !important;
+    background-size: cover !important;
+}
+.serviceSection{
+    background: #02013a;
+    padding: 60px 0;
+}
+.solutionTitle h4{
+    position: relative;
+    padding-left: 120px;
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 25px;
+}
+.solutionTitle h4::before{
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background: #FFF;
+    content: "";
+    top:15px;
+    left: 0px;
+}
+.solutionTitle h2{
+
+    color: #FFF;
+    font-family: Outfit,sans-serif;
+    font-size: 35px;
+    margin-top:15px;
+}
+
+
 .HomeBanner_heroTitle__0G7bl {
     font-size: 50px;
     color: white;
