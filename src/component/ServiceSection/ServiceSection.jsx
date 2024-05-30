@@ -15,42 +15,39 @@ function ServiceSection(props) {
                         </Col>
                         <Col md="7" sm="12">
                             <Row>
-                                <Col md={6} className="mb-3">
-                                    <Card className="h-100">
+                                <Col md={6} className="mb-3 howItWorkBox">
+                                    <Card>
                                         <Card.Body>
-                                            <div className="text-center pb-3 pt-4">
-                                                <img style={{ height: "120px" }} src='/images/designAndDevelopment.png' />
-                                            </div>
-                                            <div className="text-center pb-4">
-                                                <h4 className="fw-bold">Website design & development</h4>
-                                                <p className="px-0 px-md-5">Design or Develop Website as Per Your Requiremnts from Scrach or Existing Design Templets</p>
-                                            </div>
+                                                <img src='/images/cutom-design.svg' />
+                                                <h4>Customize Website Design</h4>
+                                                <p>Design or Develop Website as Per Your Requiremnts from Scrach or Existing Design Templets</p>
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                <Col md={6} className="mb-3">
-                                    <Card className="h-100">
+                                <Col md={6} className="mb-3 howItWorkBox">
+                                    <Card>
                                         <Card.Body>
-                                            <div className="text-center pb-3 pt-4">
-                                                <img style={{ height: "120px" }} src='/images/webApplication.png' />
-                                            </div>
-                                            <div className="text-center pb-4">
-                                                <h4 className="fw-bold">Web application development</h4>
-                                                <p className="px-0 px-md-5">Develop High Secured and Professional Web Application / Software as Per Your Requiremnts </p>
-                                            </div>
+                                            <img src='/images/developing.svg' />
+                                            <h4>Website development</h4>
+                                            <p>Design or Develop Website as Per Your Requiremnts from Scrach or Existing Design Templets</p>
                                         </Card.Body>
                                     </Card>
                                 </Col>
-                                <Col md={6} className="mb-3">
-                                    <Card className="h-100">
+                                <Col md={6} className="mb-3 howItWorkBox">
+                                    <Card>
                                         <Card.Body>
-                                            <div className="text-center pb-3 pt-4">
-                                                <img style={{ height: "120px" }} src='/images/bugFix.png' />
-                                            </div>
-                                            <div className="text-center pb-4">
-                                                <h4 className="fw-bold">Bug Fixes</h4>
-                                                <p className="px-0 px-md-5">Fix any Bugs Related to PHP , MySQL , Laravel , CSS , JS</p>
-                                            </div>
+                                            <img src='/images/cutom-design.svg' />
+                                            <h4>Application Development</h4>
+                                            <p>Develop High Secured and Professional Web Application / Software as Per Your Requiremnts</p>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col md={6} className="mb-3 howItWorkBox">
+                                    <Card>
+                                        <Card.Body>
+                                            <img src='/images/cutom-design.svg' />
+                                            <h4>Bug Fixes</h4>
+                                            <p>Develop High Secured and Professional Web Application / Software as Per Your Requiremnts</p>
                                         </Card.Body>
                                     </Card>
                                 </Col>

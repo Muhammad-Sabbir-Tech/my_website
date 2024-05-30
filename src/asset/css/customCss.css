@@ -38,7 +38,7 @@ h6 {
 }
 
 .sectionDefaultMargin {
-    margin-bottom: 80px;
+     margin-bottom:0px;
 }
 .TopNavStyle_topNavContainer__MRqSu {
     background: rgba(10, 25, 47, .5) !important  ;
@@ -70,13 +70,105 @@ h6 {
     left: 0px;
 }
 .solutionTitle h2{
-
     color: #FFF;
     font-family: Outfit,sans-serif;
     font-size: 35px;
     margin-top:15px;
 }
+.howItWorkBox .card{
+    border-radius: 10px!important;
+    background: #02013a;
+    border: 1px solid transparent;
+}
+.howItWorkBox .card .card-body{
+    padding: 35px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    transition-property: color, background, box-shadow;
+    transition-timing-function: ease;
+    transition-duration: 500ms;
+}
+.howItWorkBox h4 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #dfdeff;
+    margin-top: 30px;
+}
+.howItWorkBox p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #b3b2dd;
+    margin-top: 30px;
+}
+.howItWorkBox:nth-child(1) .card {border:1px solid #ff6b00; }
+.howItWorkBox:nth-child(2) .card{border:1px solid #146ef5; }
+.howItWorkBox:nth-child(3) .card{border:1px solid #ed52cb; }
+.howItWorkBox:nth-child(4) .card{border:1px solid #00d722; }
+.howItWorkBox:nth-child(1):hover .card {border:1px solid #ff6b00; background: #ff6b00;}
+.howItWorkBox:nth-child(2):hover .card{border:1px solid #146ef5; background: #146ef5;}
+.howItWorkBox:nth-child(3):hover .card{border:1px solid #ed52cb; background: #ed52cb;}
+.howItWorkBox:nth-child(4):hover .card{border:1px solid #00d722; background: #00d722;}
 
+.howItWorkBox:nth-child(1):hover h4,
+.howItWorkBox:nth-child(1):hover p,
+.howItWorkBox:nth-child(2):hover h4,
+.howItWorkBox:nth-child(2):hover p,
+.howItWorkBox:nth-child(3):hover h4,
+.howItWorkBox:nth-child(3):hover p,
+.howItWorkBox:nth-child(4):hover h4,
+.howItWorkBox:nth-child(4):hover p{
+    color: #000;
+}
+.howItWorkBox:hover img{filter: invert(1); }
+
+.aboutSection{
+    background:url(../../../public/images/about-line.png) no-repeat bottom center #f3f7fb;
+    padding: 60px 0;
+    color: #4a4a4a;
+    font-family: "Poppins", sans-serif;
+}
+.aboutSection h4{
+    background:url(../../../public/images/section-title.png) no-repeat 0px 5px;
+    padding-left: 45px;
+    font-size: 18px;
+    color: #3c72fc;
+}
+.aboutSection h1{
+    font-size: 40px;
+    color: #171660;
+    font-weight: 700;
+}
+.aboutSection p{
+    color: #6b6b6b;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300
+}
+.aboutSection ul{
+    padding: 0px;
+    margin: 0px;
+}
+.aboutSection ul li{
+    padding: 5px 0px;
+    margin: 0px;
+}
+.aboutSection ul li svg{
+    margin-right: 8px;
+    color: #396df1;
+}
+.readMore{
+    padding: 12px 25px;
+    background: #0a53be;
+    font-family: "Poppins", sans-serif;
+}
+.portfolioSection{
+    padding: 60px 0;
+    background: #f3f7fb;
+}
 
 .HomeBanner_heroTitle__0G7bl {
     font-size: 50px;
